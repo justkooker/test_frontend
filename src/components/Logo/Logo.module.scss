@@ -1,0 +1,24 @@
+.logo {
+    display: flex;
+    align-items: center;
+    & > svg {
+        order:1;
+    }
+    &__text {
+        margin: 0 4px 0 8px;
+        font-weight: 600;
+        font-size: 1.86rem;
+    }
+    & .version {
+        font-size: 0.714rem;
+        color: #838383;
+        align-self: flex-end;
+        margin-bottom: 2.5%;
+    }
+    @media screen and (max-width:998px) {
+        justify-content: flex-end;
+        & > svg {
+            order: 3;
+        }
+    }
+}

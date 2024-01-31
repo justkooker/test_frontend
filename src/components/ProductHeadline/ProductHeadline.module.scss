@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.headline {
+    margin: 0;
+    font-size: 1.57rem;
+    font-weight: 700;
+}
+.subheading {
+    color: #16c098;
+    font-weight: 700;
+}

@@ -1,0 +1,28 @@
+.listItem {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 11px 8px 11px 11px;
+    color: #9197b3;
+    border-radius: 8px;
+    cursor: pointer;
+    &__text {
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &:hover {
+        color: #ffffff;
+        background-color: #7657e8c8;
+    }
+  @media screen and (max-width: 998px){
+    & > svg:first-child {
+        order: 3;
+    }
+  }
+}
+.active {
+    background-color: #5932ea;
+    color: #ffffff;
+}

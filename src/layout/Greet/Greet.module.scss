@@ -1,0 +1,15 @@
+.greet {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.71rem;
+    margin-bottom: 51px;
+    &__text {
+        font-weight: 500;
+        margin: 0;
+    }
+    &__applause {
+        font-size: 1.4rem;
+    
+    }
+}

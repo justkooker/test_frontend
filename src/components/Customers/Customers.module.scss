@@ -1,0 +1,14 @@
+.customers{
+    width: 100%;
+    max-width: 968px;
+    padding: 30px 44px 0 38px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    overflow-x: hidden;
+    @media screen and (max-width:1278px) {
+        max-width: 655px;
+        padding: 30px 34px 41px 28px;
+    }
+
+}
+

@@ -1,0 +1,21 @@
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   margin-top: auto;
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+    &__image {
+        border-radius: 50%;
+    }
+    &__position {
+        font-size: 0.85rem;
+        font-weight: 400;
+        color: #757575;
+    }
+    & p {
+        margin: 0;
+    }
+}

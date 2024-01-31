@@ -1,0 +1,95 @@
+.userInfo {
+    display: flex;
+    align-items: center;
+    &__item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 700;
+        border-bottom: 1px solid #eeeeee;
+        &:first-child {
+            width: 172px;
+        }
+        &:nth-child(2) {
+            width: 131px;
+        }
+        &:nth-child(3) {
+            width: 156px;
+        }
+        &:nth-child(4) {
+            width: 207px;
+        }
+        &:nth-child(5) {
+            width: 140px;
+        }
+        &:nth-child(6) {
+            text-align: center;
+            flex-grow: 1;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        &:nth-child(6) div {
+            width: 100%;
+            padding: 4px 0;
+            margin: 0 auto;
+            text-transform: capitalize;
+            background-color: #00876761;
+            border: 1px solid #00b087;
+            border-radius: 4px;
+        }
+    }
+    @media screen and (max-width: 1278px) {
+        &__item {
+            font-size: 0.8rem;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-weight: 700;
+            border-bottom: 1px solid #eeeeee;
+            &:first-child {
+                width: 130px;
+            }
+            &:nth-child(2) {
+                width: 85px;
+            }
+            &:nth-child(3) {
+                width: 120px;
+            }
+            &:nth-child(4) {
+                width: 150px;
+            }
+            &:nth-child(5) {
+                width: 110px;
+            }
+            &:nth-child(6) {
+                text-align: center;
+                flex-grow: 0;
+                width: 60px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            &:nth-child(6) div {
+                width: 100%;
+                padding: 4px 0;
+                margin: 0 auto;
+                text-transform: capitalize;
+                background-color: #00876761;
+                border: 1px solid #00b087;
+                border-radius: 4px;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        &__item {
+            font-size: 1.3rem;
+            width: 50%;
+            border-bottom: none;
+            &:nth-child(even),&:nth-child(odd){
+                width: 100%;
+            }
+            &:nth-child(6){
+                max-width: 200px;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test_frontend/static/css/main.c85db7b4.css",
+    "main.js": "/test_frontend/static/js/main.1397ea9a.js",
+    "static/media/iconSprite.svg": "/test_frontend/static/media/iconSprite.60a32e6332bf7a7b4c26d84d569aac28.svg",
+    "index.html": "/test_frontend/index.html",
+    "main.c85db7b4.css.map": "/test_frontend/static/css/main.c85db7b4.css.map",
+    "main.1397ea9a.js.map": "/test_frontend/static/js/main.1397ea9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c85db7b4.css",
+    "static/js/main.1397ea9a.js"
+  ]
+}
